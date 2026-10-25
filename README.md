@@ -15,7 +15,7 @@ A geospatial project integrating **Analytical Hierarchy Process (AHP), Random Fo
 
 ## Study Area
 
-The study covers **Kodagu district in Karnataka, India**, within the Western Ghats. The project uses a **2018 landslide inventory** and **August–October 2018 rainfall** to investigate susceptibility in the context of the 2018 landslide period.
+The study covers **Kodagu district in Karnataka, India**, within the Western Ghats. 
 
 Susceptibility represents the relative spatial tendency for landslides to occur. It does not provide a forecast of when a landslide will happen.
 
@@ -125,55 +125,5 @@ Agreement indicates consistency between models; it does not independently establ
 - **Matplotlib:** evaluation plots.
 - **joblib:** model persistence.
 
-## Repository Organisation
 
-The intended organisation for the supporting project files is:
-
-| Location | Contents |
-| --- | --- |
-| `notebooks/` | Python notebooks for analysis, modelling, and evaluation |
-| `scripts/` | Standalone Python scripts, where applicable |
-| `maps/` | Final susceptibility and agreement map exports |
-| `results/` | Model metrics, AHP weights, and area/agreement tables |
-| `docs/` | Detailed methodology, data sources, and preprocessing notes |
-| `requirements.txt` | Python dependencies for the shared code |
-
-File availability depends on the supporting material uploaded with this README.
-
-## Reproducing the Analysis
-
-The workflow requires the input GIS datasets and the original preprocessing and model settings in addition to the shared code.
-
-1. Obtain the input datasets and confirm their dates, coordinate systems, and usage permissions.
-2. Prepare the 12 factors on the same projected raster grid, with matching extent, cell size, and alignment.
-3. Prepare landslide and background samples using the documented sampling rules.
-4. Extract predictor values and check missing data and category encoding.
-5. Run the AHP and machine learning workflows using the settings recorded in the notebooks.
-6. Evaluate continuous scores and generate classified susceptibility maps.
-7. Compare aligned class rasters and calculate agreement statistics.
-
-ArcPy-dependent steps require an ArcGIS Pro Python environment. Spatial Analyst operations require the corresponding licence. Exact reproduction also requires the final AHP matrix and weights, reclassification thresholds, model parameters, random seeds, and train/test sample assignments.
-
-## Data Sources and Attribution
-
-Rainfall data were obtained from **CHIRPS**. The analysis also uses a DEM, landslide inventory, district boundary, roads, rivers, lineaments, lithology, geomorphology, and LULC data.
-
-For each input dataset, the accompanying source documentation should record the provider, product/version, observation period, resolution or scale, access link, and redistribution conditions. Provider details not yet documented here should be verified against the original downloads.
-
-## Limitations
-
-- Landslide inventory completeness and positional accuracy influence the analysis.
-- Selecting background points from low-to-moderate slopes may make the classes easier to distinguish and affect the reported ROC–AUC.
-- A random training–testing split may retain spatial dependence between samples. Spatially separated validation would provide a stronger assessment of geographic generalisation.
-- The coarse native resolution of CHIRPS rainfall limits local rainfall detail.
-- AHP results depend on the chosen weights and reclassification rules.
-- Classified map agreement depends on class boundaries as well as continuous model scores.
-- The outputs are intended for learning and portfolio demonstration. Operational planning would require additional validation and field assessment.
-
-## Author
-
-**Gowri Shankar Ganesh**  
-M.Sc. Applied Geology
-
-Project focus: GIS, remote sensing, terrain analysis, and geospatial machine learning.
 
