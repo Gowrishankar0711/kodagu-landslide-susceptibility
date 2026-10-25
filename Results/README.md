@@ -49,7 +49,7 @@ AHP percentages were recovered as rounded values and sum to 99.99%. Exact final 
 
 ### AHP Map
 
-![AHP susceptibility map](../maps/Kodagu_AHP_Susceptibility.png)
+![AHP susceptibility map](../final%20Land%20Slide%20susceptibility%20maps/Kodagu_AHP_Susceptibility.png)
 
 The AHP map is dominated by the **moderate class (75.40%)**, with smaller low (13.16%) and high (11.43%) zones. This distribution indicates that the selected weights and factor scores place most analysed terrain in the middle susceptibility category.
 
@@ -57,7 +57,7 @@ The result reflects the chosen pairwise weights and reclassification rules. Broa
 
 ### Random Forest Map
 
-![RF susceptibility map](../maps/Kodagu_RF_Susceptibility.png)
+![RF susceptibility map](../final%20Land%20Slide%20susceptibility%20maps/Kodagu_RF_Susceptibility.png)
 
 RF assigns **2,388,517 cells to low**, **1,528,433 to moderate**, and **438,785 to high** susceptibility. Low susceptibility occupies 54.84% of the analysed raster footprint, while high susceptibility occupies 10.07%.
 
@@ -65,7 +65,7 @@ RF produces the smallest high-class proportion among the three reported maps. It
 
 ### ANN Map
 
-![ANN susceptibility map](../maps/Kodagu_ANN_Susceptibility.png)
+![ANN susceptibility map](../final%20Land%20Slide%20susceptibility%20maps/Kodagu_ANN_Susceptibility.png)
 
 ANN assigns **1,451,630 cells to low**, **1,894,681 to moderate**, and **1,009,424 to high** susceptibility. The moderate class is largest at 43.50%; high susceptibility covers 23.17%.
 
@@ -89,7 +89,7 @@ This overall agreement is different from high-susceptibility consensus: unanimou
 
 ### High-Susceptibility Consensus
 
-![High-susceptibility consensus map](../maps/Kodagu_High_Consensus.png)
+![High-susceptibility consensus map](../final%20Land%20Slide%20susceptibility%20maps/Kodagu_High_Consensus.png)
 
 The intersection of all three high classes contains **130,022 cells**, covering approximately **122 km²**, or **2.99%** of the analysed agreement footprint. These locations are a useful set of consistently highlighted areas for further investigation.
 
