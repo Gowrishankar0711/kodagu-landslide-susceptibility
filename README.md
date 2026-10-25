@@ -27,7 +27,7 @@ Susceptibility represents the relative spatial tendency for landslides to occur.
 | 2 | Slope | DEM-derived slope |
 | 3 | Aspect | DEM-derived slope orientation |
 | 4 | Curvature | DEM-derived terrain curvature |
-| 5 | Rainfall | CHIRPS rainfall for August–October 2018 |
+| 5 | Rainfall | CHIRPS rainfall data |
 | 6 | Distance to roads | Euclidean distance raster |
 | 7 | Distance to rivers | Euclidean distance raster |
 | 8 | Topographic Wetness Index (TWI) | Terrain-based wetness index |
@@ -70,7 +70,6 @@ This VIF result applies to those eight continuous predictors, rather than consti
 
 - Used the 2018 landslide inventory as positive samples.
 - Prepared background samples outside a **500 m buffer** around known landslide points.
-- Restricted background sampling to low-to-moderate slope areas and excluded water bodies.
 - Extracted conditioning-factor values to sample points.
 - Checked the extracted dataset for unexpected missing and NoData values.
 - Used a **70:30 training–testing split** for RF and ANN modelling.
