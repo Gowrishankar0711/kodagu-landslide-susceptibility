@@ -1,0 +1,10 @@
+Model,Class,Susceptibility,Cell_Count,Area_Percent,Value_Status
+AHP,1,Low,,13.16,Rounded percentage recovered; final cell count unavailable
+AHP,2,Moderate,,75.40,Rounded percentage recovered; final cell count unavailable
+AHP,3,High,,11.43,Rounded percentage recovered; final cell count unavailable
+Random Forest,1,Low,2388517,54.836141,Reported final class table
+Random Forest,2,Moderate,1528433,35.090128,Reported final class table
+Random Forest,3,High,438785,10.073730,Reported final class table
+ANN,1,Low,1451630,33.326867,Reported final class table
+ANN,2,Moderate,1894681,43.498537,Reported final class table
+ANN,3,High,1009424,23.174596,Reported final class table

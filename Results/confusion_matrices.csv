@@ -1,0 +1,5 @@
+Model,Actual_Class,Predicted_Background_0,Predicted_Landslide_1
+Random Forest,Background (0),49,5
+Random Forest,Landslide (1),6,48
+ANN,Background (0),43,11
+ANN,Landslide (1),9,45

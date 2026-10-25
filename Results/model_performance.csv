@@ -1,0 +1,4 @@
+Model,ROC_AUC,Accuracy_Percent,Precision_Percent,Recall_Percent,F1_Percent,Evaluation
+AHP,0.8514,,,,,Continuous LSI; 181 landslide and 179 background points
+Random Forest,0.9702,89.81,90.57,88.89,89.72,Test subset; 70:30 training-testing split
+ANN,0.9012,81.48,80.36,83.33,81.82,Test subset; 70:30 training-testing split

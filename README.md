@@ -125,5 +125,6 @@ Agreement indicates consistency between models; it does not independently establ
 - **Matplotlib:** evaluation plots.
 - **joblib:** model persistence.
 
+## Detailed Results and Comparison Charts
 
-
+See the [results report](Results/README.md) for model metrics, confusion matrices, susceptibility class tables, four comparison charts, map interpretations and high-susceptibility consensus analysis. Machine-readable CSV tables and the chart-generation script are included in [Results/](Results/).
